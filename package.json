@@ -1,36 +1,36 @@
 {
-  "name": "electron-data",
-  "version": "2.1.0",
-  "description": "An easy way to save data, settings or anything else as json file in an application folder.",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/jest"
-  },
-  "author": {
-    "email": "dominik@sydev.de",
-    "name": "Dominik Winter"
-  },
-  "license": "MIT",
-  "keywords": [
-    "electron",
-    "json",
-    "localstorage",
-    "settings",
-    "data"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sydev/electron-data.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sydev/electron-data/issues"
-  },
-  "homepage": "https://github.com/sydev/electron-data",
-  "dependencies": {
-    "fs-promise": "^2.0.2",
-    "user-home": "^2.0.0"
-  },
-  "devDependencies": {
-    "jest": "^19.0.2"
-  }
+    "name": "electron-data-ext",
+    "version": "2.2.0",
+    "description": "An easy way to save data, settings or anything else as json file in an application folder. Forked from sydev/electron-data. Add ability to change the file extension ",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/jest"
+    },
+    "author": {
+        "email": "dominik@sydev.de",
+        "name": "Szymon Standarski"
+    },
+    "license": "MIT",
+    "keywords": [
+        "electron",
+        "json",
+        "localstorage",
+        "settings",
+        "data"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ambus/electron-data-ext"
+    },
+    "bugs": {
+        "url": "https://github.com/ambus/electron-data-ext/issues"
+    },
+    "homepage": "https://github.com/ambus/electron-data-ext",
+    "dependencies": {
+        "fs-promise": "^2.0.2",
+        "user-home": "^2.0.0"
+    },
+    "devDependencies": {
+        "jest": "^19.0.2"
+    }
 }

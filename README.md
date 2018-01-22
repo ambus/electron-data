@@ -1,13 +1,8 @@
 [![NPM](https://nodei.co/npm/electron-data.png?downloads=true&downloadRank=true)](https://nodei.co/npm/electron-data/)
 
-# electron-data
+# electron-data-ext
 
-[![Build Status](https://travis-ci.org/sydev/electron-data.svg?branch=v2.x)](https://travis-ci.org/sydev/electron-data)
-[![Monthly Downloads](https://img.shields.io/npm/dm/electron-data.svg)](https://npmjs.com/package-electron-data)
-[![Total Downloads](https://img.shields.io/npm/dt/electron-data.svg)](https://npmjs.com/package-electron-data)
-[![npm version](https://img.shields.io/npm/v/electron-data.svg)](https://npmjs.com/package-electron-data)
-[![Dependencies](https://img.shields.io/david/sydev/electron-data.svg)](https://npmjs.com/package-electron-data)
-[![devDependencies](https://img.shields.io/david/dev/sydev/electron-data.svg)](https://npmjs.com/package-electron-data)
+Forked from [electron-data](https://github.com/sydev/electron-data)
 
 An easy way to save data, settings or anything else as JSON file in an
 application folder, using a simple localStorage-like API, but promisified.
@@ -27,7 +22,7 @@ Primary developed to work with [Electron](https://github.com/atom/electron), but
 ## Installation
 
 ```
-$ npm install --save electron-data
+$ npm install --save electron-data-ext
 ```
 
 That´s all. You´re done. But wait...You want to use it, too?
@@ -35,7 +30,7 @@ That´s all. You´re done. But wait...You want to use it, too?
 ## Usage
 
 ```JavaScript
-const electron_data = require('electron-data');
+const electron_data = require('electron-data-ext');
 
 electron_data.config({/* Your config */});
 ```
@@ -108,7 +103,7 @@ Saves the data to the specified file.
 # Examples
 
 ```JavaScript
-const electron_data = require('electron-data');
+const electron_data = require('electron-data-ext');
 
 electron_data.config({
   filename: 'example',
@@ -193,6 +188,9 @@ npm test
 
 
 ## Release Notes
+- ```2.2.0```
+  - Add ability to change the file extension (e.g. .jso, .con, .conf)
+  - Forked from [electron-data](https://github.com/sydev/electron-data)
 - ```2.1.0```
   - Add new methods (getMany, getAll, setMany, keys). For more informations, read the [API-Section](#api)
   - Some bugfixes
