@@ -1,5 +1,3 @@
-[![NPM](https://nodei.co/npm/electron-data.png?downloads=true&downloadRank=true)](https://nodei.co/npm/electron-data/)
-
 # electron-data-ext
 
 Forked from [electron-data](https://github.com/sydev/electron-data)
