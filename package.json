@@ -1,13 +1,13 @@
 {
     "name": "electron-data-ext",
-    "version": "2.2.0",
-    "description": "An easy way to save data, settings or anything else as json file in an application folder. Forked from sydev/electron-data. Add ability to change the file extension ",
+    "version": "2.2.1",
+    "description": "An easy way to save data, settings or anything else as json file in an application folder. Forked from sydev/electron-data. Add ability to change the file extension",
     "main": "index.js",
     "scripts": {
         "test": "./node_modules/.bin/jest"
     },
     "author": {
-        "email": "dominik@sydev.de",
+        "email": "s.standarski@gmail.com",
         "name": "Szymon Standarski"
     },
     "license": "MIT",
